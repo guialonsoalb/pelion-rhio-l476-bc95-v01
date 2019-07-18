@@ -29,14 +29,14 @@
 #endif
 
 // Enable either TCP or UDP, but no both
-//#define MBED_CLOUD_CLIENT_TRANSPORT_MODE_TCP
-#define MBED_CLOUD_CLIENT_TRANSPORT_MODE_UDP
+//#define MBED_CLOUD_CLIENT_TRANSPORT_MODE_TCP      // guille commented out
+#define MBED_CLOUD_CLIENT_TRANSPORT_MODE_UDP        // guille added
 
 #define MBED_CLOUD_CLIENT_LIFETIME              3600
 
 #define MBED_CLOUD_CLIENT_SUPPORT_UPDATE
-//#define SN_COAP_MAX_BLOCKWISE_PAYLOAD_SIZE       1024
-#define SN_COAP_MAX_BLOCKWISE_PAYLOAD_SIZE       512
+#define SN_COAP_MAX_BLOCKWISE_PAYLOAD_SIZE       1024
+//#define SN_COAP_MAX_BLOCKWISE_PAYLOAD_SIZE       512       // guille added
 
 // set flag to enable update support in mbed Cloud client
 #define MBED_CLOUD_CLIENT_SUPPORT_UPDATE

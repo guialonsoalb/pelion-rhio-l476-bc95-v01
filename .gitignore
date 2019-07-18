@@ -1,0 +1,8 @@
+
+update_default_resources.c
+mbed_cloud_dev_credentials.c
+.update-certificates/default.key.pem
+.manifest_tool.json
+.update-certificates/default.der
+mbed_cloud_dev_credentials.c
+update_default_resources.c
