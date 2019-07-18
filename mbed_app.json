@@ -1,0 +1,83 @@
+{
+    "target_overrides": {
+        "*": {
+            "target.components_remove"                  : ["FLASHIAP"],
+			"target.extra_labels_remove"                : ["PSA"],
+            "platform.stdio-baud-rate"                  : 9600,
+            "platform.stdio-convert-newlines"           : true,
+            "mbed-trace.enable"                         : false,
+            "mbed-cloud-client.external-sst-support"    : null,
+            "target.network-default-interface-type"     : "CELLULAR",
+            "target.macros_add"                         : ["CELLULAR_DEVICE=QUECTEL_BC95"],
+            "lwip.ipv4-enabled"                         : true,
+            "lwip.ipv6-enabled"                         : false,
+            "lwip.ethernet-enabled"                     : false,
+            "lwip.ppp-enabled"                          : false,
+            "lwip.tcp-enabled"                          : false,
+            "cellular.debug-at"                         : false,
+            "nsapi.default-cellular-plmn"               : 0,
+            "nsapi.default-cellular-sim-pin"            : 0,
+            "nsapi.default-cellular-apn"                : "\"spe.inetd.vodafone.nbiot\"",
+            "nsapi.default-cellular-username"           : 0,
+            "nsapi.default-cellular-password"           : 0,
+            "QUECTEL_BC95.tx"                           : "PA_2",
+            "QUECTEL_BC95.rx"                           : "PA_3",
+            "QUECTEL_BC95.cts"                          : null,
+            "QUECTEL_BC95.rts"                          : null,
+            "QUECTEL_BC95.provide-default"              : true            
+
+        },
+        "RHOMBIO_L476DMW1K": {
+            "target.macros_remove"                      : ["MBED_TICKLESS"],
+            "target.components_add"                     : ["QSPIF"],
+            "target.device_has_remove"                  : ["SERIAL_FC"],
+            "device-management.flash-start-address"     : "0x08000000",
+            "device-management.flash-size"              : "(1024*1024)",
+            "device-management.sotp-section-1-address"  : "(MBED_CONF_APP_FLASH_START_ADDRESS + MBED_CONF_APP_FLASH_SIZE - 2*(2*1024))",
+            "device-management.sotp-section-1-size"     : "(2*1024)",
+            "device-management.sotp-section-2-address"  : "(MBED_CONF_APP_FLASH_START_ADDRESS + MBED_CONF_APP_FLASH_SIZE - 1*(2*1024))",
+            "device-management.sotp-section-2-size"     : "(2*1024)",
+            "update-client.application-details"         : "(MBED_CONF_APP_FLASH_START_ADDRESS + 64*1024)",
+            "update-client.storage-address"             : "(2*1024*1024)",
+            "update-client.storage-size"                : "(2*1024*1024)",
+            "update-client.storage-locations"           : "1",
+            "target.features_add"                       : ["BOOTLOADER"],
+            "target.bootloader_img"                     : "bootloader/mbed-bootloader-RHOMBIO_L476DMW1K.bin",
+            "target.header_offset"                      : "0x10000",
+            "target.app_offset"                         : "0x10400",
+			"button-pressed-state"                      : 0
+        }
+    },
+    "config": {
+        "sock-type": "UDP",
+        "format-storage-layer-on-error": {
+            "help": "Whether to format the storage layer when it cannot be read - always disable for production devices!",
+            "value": 1
+        },
+        "main-stack-size": {
+            "value": 6000
+        },
+        "use-button": {
+            "help": "Whether the target has a button",
+            "macro_name": "USE_BUTTON",
+            "value": true
+        },
+        "button-pressed-state": {
+            "help": "Value of the button when pressed",
+            "value": 1
+        },
+        "no_led": {
+            "help": "This flag disables the heartbeat thread in tests. This is useful for platforms that don't have an LED or the LED is used for other functionality like LED on the SPI clockline etc",
+            "value": null
+        },
+        "tests-fs-size": {
+            "help": "Maximum size of the file system used for tests",
+            "value": null
+        },
+        "trace-level": {
+            "help": "Options are TRACE_LEVEL_ERROR,TRACE_LEVEL_WARN,TRACE_LEVEL_INFO,TRACE_LEVEL_DEBUG",
+            "macro_name": "MBED_TRACE_MAX_LEVEL",
+            "value": "TRACE_LEVEL_DEBUG"
+        }        
+    }
+}
