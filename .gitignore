@@ -6,3 +6,5 @@ mbed_cloud_dev_credentials.c
 .update-certificates/default.der
 mbed_cloud_dev_credentials.c
 update_default_resources.c
+update_default_resources.c
+mbed_cloud_dev_credentials.c

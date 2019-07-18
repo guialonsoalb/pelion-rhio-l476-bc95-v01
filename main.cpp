@@ -172,8 +172,6 @@ void sensors_update() {
 int main(void) {
     wait_ms(1000);
     printf("\nStarting Simple Pelion Device Management Client example\n");
-    BC95_setup();
-
     int storage_status = fs.mount(&sd);
     if (storage_status != 0) {
         printf("Storage mounting failed.\n");
@@ -196,6 +194,7 @@ int main(void) {
         printf("You can hold the user button during boot to format the storage and change the device identity.\n");
     }
 
+    BC95_setup();
     sensors_init();
 
     // Connect to the internet (DHCP is expected to be on)
@@ -280,7 +279,7 @@ int main(void) {
 
 void BC95_setup(void)
 {
-    printf("\nBC95 set up\n");
+    printf("\nBC95 set up...............\n");
     modem_rst = 1;
     wait_ms(1000);
     modem_rst = 0;
@@ -308,7 +307,9 @@ void BC95_setup(void)
     modem.printf("AT+CSQ\r\n");wait_ms(300);    
  //   modem.printf("AT+NSOCO=1,192.158.5.1,1024\r\n");wait_ms(500);
  //   modem.printf("AT+NSOSD=1,2,AB30\r\n");wait_ms(500);
- //   modem.printf("AT+NPING=192.158.5.1,1024\r\n");wait_ms(500);        
+ //   modem.printf("AT+NPING=192.158.5.1,1024\r\n");wait_ms(500);  
+
+     printf("\nBC95 set up done...............\n");      
 }
 
 #endif

@@ -21,6 +21,7 @@
 
 //#define PACKET_SIZE_MAX 1358  // guille commented out
 #define PACKET_SIZE_MAX 512     // guille added
+//#define PACKET_SIZE_MAX 128     // guille added
 
 using namespace mbed;
 using namespace mbed_cellular_util;
@@ -265,7 +266,7 @@ nsapi_size_or_error_t QUECTEL_BC95_CellularStack::socket_recvfrom_impl(CellularS
     _at.read_string(ip_address, sizeof(ip_address));
     port = _at.read_int();
     int hexlen = _at.read_hex_string((char *)buffer, size);
-    recv_len = _at.read_int();
+    recv_len = _at.read_int();      // guille moved this line (it was avobe read_hex_string before)
     // remaining length
     _at.skip_param();
     _at.resp_stop();
