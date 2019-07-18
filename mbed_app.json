@@ -9,6 +9,7 @@
             "mbed-cloud-client.external-sst-support"    : null,
             "target.network-default-interface-type"     : "CELLULAR",
             "target.macros_add"                         : ["CELLULAR_DEVICE=QUECTEL_BC95"],
+            "target.features_add"                       : ["LWIP"],
             "lwip.ipv4-enabled"                         : true,
             "lwip.ipv6-enabled"                         : true,
             "lwip.ethernet-enabled"                     : false,
@@ -23,7 +24,6 @@
             "QUECTEL_BC95.tx"                           : "PA_2",
             "QUECTEL_BC95.rx"                           : "PA_3",
             "QUECTEL_BC95.provide-default"              : true            
-
         },
         "RHOMBIO_L476DMW1K": {
             "target.macros_remove"                      : ["MBED_TICKLESS"],
