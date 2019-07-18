@@ -5,12 +5,12 @@
 			"target.extra_labels_remove"                : ["PSA"],
             "platform.stdio-baud-rate"                  : 9600,
             "platform.stdio-convert-newlines"           : true,
-            "mbed-trace.enable"                         : false,
+            "mbed-trace.enable"                         : true,
             "mbed-cloud-client.external-sst-support"    : null,
             "target.network-default-interface-type"     : "CELLULAR",
             "target.macros_add"                         : ["CELLULAR_DEVICE=QUECTEL_BC95"],
             "lwip.ipv4-enabled"                         : true,
-            "lwip.ipv6-enabled"                         : false,
+            "lwip.ipv6-enabled"                         : true,
             "lwip.ethernet-enabled"                     : false,
             "lwip.ppp-enabled"                          : false,
             "lwip.tcp-enabled"                          : false,
@@ -22,8 +22,6 @@
             "nsapi.default-cellular-password"           : 0,
             "QUECTEL_BC95.tx"                           : "PA_2",
             "QUECTEL_BC95.rx"                           : "PA_3",
-            "QUECTEL_BC95.cts"                          : null,
-            "QUECTEL_BC95.rts"                          : null,
             "QUECTEL_BC95.provide-default"              : true            
 
         },
@@ -77,7 +75,7 @@
         "trace-level": {
             "help": "Options are TRACE_LEVEL_ERROR,TRACE_LEVEL_WARN,TRACE_LEVEL_INFO,TRACE_LEVEL_DEBUG",
             "macro_name": "MBED_TRACE_MAX_LEVEL",
-            "value": "TRACE_LEVEL_DEBUG"
+            "value": "TRACE_LEVEL_ERROR"
         }        
     }
 }
