@@ -20,8 +20,8 @@
 #include "CellularLog.h"
 
 //#define PACKET_SIZE_MAX 1358  // guille commented out
-//#define PACKET_SIZE_MAX 512     // guille added
-#define PACKET_SIZE_MAX 128     // guille added
+#define PACKET_SIZE_MAX 512     // guille added
+//#define PACKET_SIZE_MAX 128     // guille added
 
 using namespace mbed;
 using namespace mbed_cellular_util;
