@@ -1,0 +1,1966 @@
+
+[BC95]: OK
+
+
+[MCU]: AT+CIFSR
+
+
+[BC95]: +CIFSR:STAIP,"0.0.0.0"
+
+
+[BC95]: +CIFSR:STAMAC,"5c:cf:7f:07:c6:4a"
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CWDHCP_CUR=1,1
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CWJAP_CUR="SSID","Password"
+
+
+[BC95]: WIFI DISCONNECT
+
+
+[BC95]: +CWJAP:3
+
+
+[BC95]:
+
+
+[BC95]: FAIL
+
+
+[BC95]: l|l|
+|▒b
+▒nln▒bp▒p▒n
+n|
+▒nn▒l▒lnr▒▒lp▒n▒▒
+n|▒▒nnl▒lnr▒▒
+p▒n▒▒
+n|▒▒
+▒nnl▒lnr▒▒l▒l▒▒▒n▒▒n▒
+l~llll▒n▒~▒ll▒b▒
+b▒
+brb▒
+bbl▒
+▒l|l
+[BC95]: ▒0x1fc000
+[BC95]: ▒▒▒|▒l▒
+|ln
+▒nl▒rll▒rll▒r
+lr▒▒b▒▒▒▒n▒nll▒n▒▒b▒
+▒▒b▒
+
+
+[BC95]: ready
+
+
+[MCU]: AT
+
+
+[BC95]: AT
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+RST
+
+
+[BC95]: AT+RST
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]:
+
+
+[BC95]:  ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+
+[BC95]:
+
+
+[BC95]: load 0x40100000, len 2408, room 16
+
+
+[BC95]: tail 8
+
+
+[BC95]: chksum 0xe5
+
+
+[BC95]: load 0x3ffe8000, len 776, room 0
+
+
+[BC95]: tail 8
+
+
+[BC95]: chksum 0x84
+
+
+[BC95]: load 0x3ffe8310, len 632, room 0
+
+
+[BC95]: tail 8
+
+
+[BC95]: chksum 0xd8
+
+
+[BC95]: csum 0xd8
+
+
+[BC95]:
+
+
+[BC95]: 2nd boot version : 1.6
+
+
+[BC95]:   SPI Speed      : 40MHz
+
+
+[BC95]:   SPI Mode       : QIO
+
+
+[BC95]:   SPI Flash Size & Map: 16Mbit(1024KB+1024KB)
+
+
+[BC95]: jump to run user1 @ 1000
+
+
+[BC95]:
+
+
+[BC95]: ▒0x1fc000
+[BC95]: ▒▒▒|▒l▒
+|ln
+▒nl▒rll▒rll▒r
+lr▒▒b▒▒▒▒n▒nll▒n▒▒b▒
+▒▒b▒
+
+
+[BC95]: ready
+
+
+[MCU]: AT
+
+
+[BC95]: AT
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: ATE0
+
+
+[BC95]: ATE0
+
+
+[MCU]: AT+GMR
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: AT version:1.7.0.0(Aug 16 2018 00:57:04)
+
+
+[BC95]: SDK version:3.0.0(d49923c)
+
+
+[BC95]: compile time:Aug 23 2018 16:58:12
+
+
+[MCU]: AT+GMR
+
+
+[BC95]: Bin version(Wroom 02):v1.7.0
+
+
+[BC95]: OK
+
+
+[BC95]: AT version:1.7.0.0(Aug 16 2018 00:57:04)
+
+
+[BC95]: SDK version:3.0.0(d49923c)
+
+
+[BC95]: compile time:Aug 23 2018 16:58:12
+
+
+[MCU]: AT+CWMODE_DEF=1
+
+
+[BC95]: Bin version(Wroom 02):v1.7.0
+
+
+[MCU]: AT+CIPRECVMODE=1
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CWMODE_CUR=1
+
+
+[BC95]:
+
+
+[MCU]: AT+CIPMUX=1
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIFSR
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: +CIFSR:STAIP,"0.0.0.0"
+
+
+[BC95]: +CIFSR:STAMAC,"5c:cf:7f:07:c6:4a"
+
+
+[MCU]: AT+CWDHCP_CUR=1,1
+
+
+[BC95]:
+
+
+[MCU]: AT+CWJAP_CUR="rhombio","pelionready"
+
+
+[BC95]: OK
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: WIFI CONNECTED
+
+
+[BC95]: WIFI GOT IP
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIFSR
+
+
+[BC95]: +CIFSR:STAIP,"192.168.1.221"
+
+
+[BC95]: +CIFSR:STAMAC,"5c:cf:7f:07:c6:4a"
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIFSR
+
+
+[BC95]: +CIFSR:STAIP,"192.168.1.221"
+
+
+[BC95]: +CIFSR:STAMAC,"5c:cf:7f:07:c6:4a"
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIPSTART=0,"UDP","8.8.8.8",53
+
+
+[BC95]: 0,CONNECT
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIPSEND=0,51
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+
+
+[MCU]:  bootstrap       us-east-1       mbedcloudcom
+[BC95]: Recv 51 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,109:▒▒   bootstrap       us-east-1       mbedcloudcom▒
+;s_platform-production-ca57▒▒?;4ų0,CLOSED
+
+
+[MCU]: AT+CIPCLOSE=0
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIPSTART=0,"UDP","52.7.197.179",5684
+
+
+[BC95]: 0,CONNECT
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIPSEND=0,107
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+[MCU]: ▒▒^RR▒▒▒▒▒+W▒ZK▒v▒S▒▒▒▒x▒▒P▒▒▒▒▒$
+
+
+[BC95]:
+
+
+[MCU]:
+#
+[BC95]: Recv 107 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,60:▒▒/##▒▒ ]1▒▒▒▒/!ʽn▒C=
+
+[MCU]: AT+CIPSEND=0,139
+
+
+[BC95]: ▒▒ps,wﱥp{▒>▒l
+
+
+[MCU]: ▒▒~rr▒▒▒▒▒+W▒ZK▒v▒S▒▒▒▒x▒▒P▒▒▒1▒▒▒▒/!ʽn▒C=
+
+[BC95]: OK
+
+
+[MCU]: ▒▒ps,wﱥp{▒>▒l▒▒$
+
+
+[BC95]: >
+
+
+[MCU]:
+#
+[BC95]: Recv 139 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,1040:▒▒cWW▒▒]1▒▒Tr▒▒▒QwA*▒▒M▒▒T佂נV▒v▒ +▒8<▒▒▒۳N7P▒▒Y▒鯍▒▒▒=$▒▒▒l▒W▒▒
+▒▒▒
+▒▒▒▒0▒▒0▒:▒}▒▒3,M8▒0
+
+[BC95]:*▒H▒=0g1
+0       UGB10Cambridgeshire10U  Cambridge10U
+
+[BC95]: ARM Ltd10UARM Bootstrap CA0
+190603143809Z
+210603144809Z0▒▒1
+0       UGB10Cambridgeshire10U  Cambridge10U
+
+[BC95]: ARM Ltd10U
+
+
+[BC95]: mbed Cloud1*0(U!bootstrap.us-east-1.mbedcloud.com0Y0*▒H▒*▒H▒=BUh▒▒{)▒c▒▒x!▒&▒▒.6^▒A*▒̹▒"▒AlOP▒▒G,▒▒iL▒C▒▒c~▒
+▒۫n▒ߣ▒▒0▒▒0U0▒0U▒▒▒ɏH6▒mOm▒▒M▒}▒▒k0U#0▒▒▒▒▒]▒▒to▒K▒▒]▒07U00.0,▒*▒(▒&http://crl.mbedcloud.com/bootstrap.crl0
+U▒0
+
+[BC95]:*▒H▒=G0D a~*/!}Xv▒▒;ؾJpװ]▒r ▒]R▒p▒+&N▒ v ▒▒I5"a▒▒▒\▒qX▒i▒▒$vYA+▒▒▒▒W▒▒▒▒
+▒▒A\▒▒▒\▒▒޿▒~,לּi▒▒▒▒▒▒yǄH▒▒▒▒▒▒r▒▒▒#Pwg▒▒>▒▒▒▒b▒`▒▒▒>Z▒G0E yw▒z▒}֕▒ ▒J;Lv
+▒T▒▒▒]▒v▒+!▒▒A▒▒V▒▒:Ǯ▒[.▒▒7▒▒{▒▒B-▒W▒%▒▒                                       ▒▒
+
+[MCU]: AT+CIPSEND=0,937
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+[MCU]: ▒▒▒
+▒▒▒▒0▒▒0▒*▒▒!▒o▒Nn▒▒▒iD▒0
+
+[MCU]:*▒H▒=0▒▒1
+0       UGB10U
+Cambridgeshire10U
+        Cambridge10U
+
+[MCU]:
+ARM Ltd1)0'U
+ 01694e404f8e72dc2d58eac5000000001)0'U
+ 01694e41d22cce129f20c1a503c000000
+190305142850Z
+290305142850Z0▒▒1
+0       UGB10U
+Cambridgeshire10U
+        Cambridge10U
+
+[MCU]:
+ARM Ltd1)0'U
+ 01694e404f8e72dc2d58eac5000000001)0'U
+ 01694e41d22cce129f20c1a503c000000Y0*▒H▒*▒H▒=B▒▒▒$▒s▒▒▒[▒▒}<ɝl▒▒~▒"ҳJ▒▒eq▒R▒▒4(f$▒▒▒_L▒F{▒?0=0  +▒ ▒I@▒0U0▒0U%
+0
+
+[MCU]:+0
+
+[MCU]:*▒H▒=G0D $▒B!▒▒F▒w▒▒==ÏN ▒▒▒$▒▒龥▒ #▒▒[▒▒Fh▒▒▒s7▒▒▒TmD▒7|қCϾ▒▒▒NBBA/ղ▒\Uj▒LD^▒Ǔٶzd▒▒▒
+
+[MCU]: ▒▒%`▒▒▒▒▒yi▒▒6▒G▒k▒]?▒▒▒_▒▒ŗ^▒▒XLLH0F!׸▒
+
+[MCU]: Y▒:ǽOlM▒JR▒Iv<▒O▒%▒N▒▒!▒▒▒iB▒▒▒▒"▒l2▒ᜡ▒▒e]m▒▒▒]Ћ▒▒▒▒▒▒(}▒▒▒▒▒Җ▒,DƬ▒▒`?▒▒▒7}▒wb▒;1
+[BC95]:
+
+
+[BC95]: Recv 937 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,67:▒▒▒▒(A▒[+▒▒\x▒▒ ▒▒▒O▒▒T▒^▒Or ▒
+
+
+[MCU]: AT+CIPSEND=0,138
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒}▒▒휲V9▒ď▒▒▒\ԝ▒▒▒▒▒^▒w▒f▒$▒ml▒pL▒▒~[@▒▒,K▒Ҋ) ▒ܐp▒▒▒▒▒l▒dK▒▒▒AލʆcO▒▒CR▒QH▒▒qD▒▒▒K▒i▒l0▒#▒:▒
+[BC95]: >
+
+
+[BC95]: Recv 138 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,1144:▒▒▒▒▒h▒▒▒,D▒2Y▒9▒pg▒V▒▒~▒▒zK▒KIZ;ՠn▒dW▒▒▒▒nE{▒Ѕ▒▒▒▒X)▒.,▒NM ;:ߩ▒▒Η▒SN▒▒?▒
+%d▒▒k[▒▒▒ƅ▒▒,
+▒>▒M▒▒%˞#▒▒1Ϯ▒▒▒⾵▒ެ▒▒▒▒2
+▒aߛ▒o▒:▒ԗ▒▒l▒▒^▒SŕIX|▒k▒▒I)▒tr*▒=\<▒
+
+[BC95]: 0▒G▒6▒j_▒:d▒Ѐ̙a▒l▒▒▒A!▒▒▒F▒▒▒▒_|▒▒~c▒Ȗv=▒Ҁx▒o▒p^▒%5_N▒3▒▒▒▒▒▒▒▒D▒▒▒j▒`▒.=,▒#▒▒▒g▒▒▒▒▒l▒▒▒Ɨ▒▒
+▒4▒J▒zU▒tn▒▒▒▒'▒̱▒▒▒
+▒▒ZQx gvlz▒,Z▒▒<]▒▒▒%A▒Ȉ▒a▒▒4▒6▒3|▒▒▒▒rP▒▒e▒
+▒▒p'▒▒8▒▒2▒▒o▒n▒_▒U▒cl▒M'.e▒W▒  Y▒!Mr▒k▒▒▒▒`▒▒▒.u8"▒Ѵ▒ֳ▒p%▒▒▒▒Su▒▒0E%▒   ▒▒▒r▒▒▒2▒ň'z▒3(_b▒▒▒˨▒#▒▒;▒▒!▒▒▒j▒▒▒p
+
+[BC95]: 8e▒▒lcK▒Zߚn▒▒▒9;/%n▒(,n▒▒Y▒f;v\"*▒      ▒o▒\▒▒▒#U▒▒=Y
+
+[BC95]: ▒▒▒▒M▒B^▒4▒▒H▒▒▒*▒'▒▒p▒Q▒
+sI'▒▒U▒▒▒g▒▒w▒#▒▒R▒▒▒▒#Y=▒▒%▒▒W▒▒ q▒S▒ry
+$▒▒▒R▒
+#ɕ      F▒vL▒▒%P▒8▒~▒▒R▒B▒O▒9▒
+▒▒▒/▒o▒▒Hs▒▒▒▒w�g$▒▒▒▒9 E▒jM▒▒▒▒ۊ▒[▒z▒?▒▒▒▒▒͜`▒N▒3▒q▒▒h▒Q▒`▒▒F▒▒3▒▒▒qI▒▒3▒0▒u▒▒▒▒▒l      ▒▒Ul^t▒▒*▒Y▒+▒▒~{▒▒▒c▒▒▒J~▒▒b<▒▒▒▒t▒▒Hr/▒▒▒%�   ▒Qi̩▒]>ǂ▒▒▒wل▒D▒▒7▒▒S▒▒X'57▒3TE▒▒TnW▒▒▒'▒*▒Ű▒▒vZ▒1▒▒vZ▒5T▒[▒
+ɩޒ,▒▒▒,$▒▒▒▒C▒tҘ:<▒ϗ▒▒}8Mn▒O▒▒= ▒4֐<j4▒▒+▒▒▒1▒y▒*▒▒s▒▒▒(ů▒▒\▒▒▒E▒▒▒(▒▒▒Aϡ▒r▒g▒▒|▒a▒▒<▒w▒
+[MCU]: AT+CIPSEND=0,1000
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+[MCU]: ▒▒▒s`T▒_0D$.▒▒▒ȸw▒5▒eϱW▒▒▒ x=+▒YuN▒]▒▒Z▒▒=#[f▒@&▒▒▒▒!i▒9▒v
+▒▒'\▒IN▒3▒▒▒▒▒|▒8▒▒▒}▒▒▒▒2▒׬▒▒▒▒b^▒▒▒A(▒        f▒▒J*▒▒▒▒j▒▒#6▒s▒▒Dwq▒▒
+i▒kr▒▒▒▒\▒!m{▒_D&▒▒▒▒u▒▒▒8▒▒▒▒{▒▒▒▒▒▒fL▒▒tpy▒▒Su▒p▒▒▒▒▒▒r▒▒u5▒6]▒▒▒▒_JY;▒▒'F▒8 RM▒.▒
+
+[MCU]: ▒J▒L;▒X^▒)▒▒▒▒
+▒t▒▒\▒:▒▒▒▒▒G▒▒▒GU▒▒2X
+▒3▒
+ЎA▒r.x@=▒▒▒/&▒▒W▒L▒
+gx▒▒bBHn▒<8▒hI$▒▒▒▒▒ٍ?▒`▒▒▒3▒.5ʬa▒▒▒▒
+{▒/▒▒▒
+
+[MCU]:
+▒s&▒▒Fq▒ah"▒(s▒▒▒@?▒X▒G▒:▒▒U▒אrU▒6F>▒▒n;▒p\j▒S▒▒▒mY-▒8υÏ▒;▒▒▒>▒▒@3▒w▒j,X▒nR▒q▒▒}~▒▒p
+
+[MCU]: ▒▒▒+▒A▒vnP▒▒%=tW▒$uU▒rrw▒▒▒▒▒▒▒▒▒▒▒▒<C▒,D▒~I▒▒݄▒▒s▒@▒s▒▒▒ X▒▒Ba▒▒Z孬▒▒@x▒/Ј▒▒@▒XhE▒T▒,O▒+▒▒Q▒▒=▒▒N[▒▒9▒08▒=▒▒xغ䝨DJ`U▒֞rV}A▒튊▒`▒Uat▒w▒▒#▒▒
+▒       ▒▒▒▒^ӂ▒▒▒[▒><▒▒lj▒(▒v▒▒$▒Ŧ▒▒Qjg▒▒▒▒X?▒YbI▒ٝ▒▒o>2?#▒8.▒~▒▒<▒▒▒▒▒3▒&̭▒▒▒g▒56▒i▒>▒*▒&lzP".▒I>9hK▒▒L▒ې▒qh▒!W▒▒p▒▒q▒#▒#▒
+▒▒s▒2l%o/}▒l▒$▒▒㫤A▒▒▒▒▒▒▒▒=▒7▒9▒▒ץ▒v▒▒▒▒▒▒▒H▒n▒▒▒(B▒▒
+@H▒_{O▒▒▒
+C▒/▒'▒▒▒k▒▒▒&▒
+[BC95]:
+
+
+[BC95]: Recv 1000 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,83:▒▒▒▒E▒{▒▒▒▒▒(▒
+
+[BC95]:Y▒▒v▒"̊▒l4x▒▒tz▒j▒▒<▒*T▒
+
+
+[MCU]: AT+CIPSEND=0,127
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒r▒▒8KǑ8▒a▒q▒(n)b▒C▒h僳▒▒▒^▒Ăv▒X▒Zz▒*xFh▒▒▒pD▒I▒~▒2▒Mf▒o▒'▒▒R▒ו▒b▒{▒▒▒O▒x▒▒s▒+▒t▒▒L▒▒B▒
+[BC95]: >
+
+
+[BC95]: Recv 127 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,37:▒▒MPgP}Nn2▒▒F5▒
+
+
+[BC95]: +IPD,0,39:▒▒▒&▒▒
+u▒▒▒▒▒▒▒▒mD5
+
+
+[MCU]: AT+CIPSEND=0,37
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒▒▒!▒.g▒▒jr▒
+[BC95]: >
+
+
+[BC95]: Recv 37 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,1073:▒▒$>▒▒▒c>▒▒8I▒O"A▒▒▒▒{▒:n556jTځu▒
+
+[BC95]: ▒▒G▒zۙ7%▒X)▒▒?3▒qW▒▒y▒▒▒ ▒啄▒totk▒
+▒"09▒5
+▒▒#{▒▒▒
+{oF/▒_▒Œ&i▒▒n8Td▒n▒ӫ▒n▒▒▒l▒h▒!ńq▒
+▒▒S▒▒#▒])▒▒▒,Հi▒<▒▒߶=s▒ly▒%yV   ▒▒(▒Bu▒S▒C▒▒▒▒▒ <▒▒UO▒
+
+[BC95]: ▒^'x▒o@$S▒▒+▒D5▒▒c▒▒▒▒▒o▒▒~▒▒▒^H▒▒iCu▒▒▒▒▒▒▒▒fGW▒+▒▒,▒)▒|<▒c▒▒w▒ҳ▒▒{)▒▒8Q▒/x▒Y▒l▒▒▒▒▒3▒9▒▒~B▒▒߳$ :6x>▒4▒▒T▒▒
+6▒ܬ▒▒s▒PL>▒▒▒z▒▒\▒▒p▒=▒F▒▒▒▒S▒▒/ͰV▒cza▒7▒s▒▒▒RI▒▒>▒\=x▒▒j2▒F
+U><>-rH>▒=▒%GO▒K▒▒▒8▒▒S▒▒bm▒▒-▒a>*f▒lA▒▒▒;▒8^;▒i▒//▒▒▒▒9▒l▒JT▒P▒▒3(.{)#▒▒|▒ՎC▒]R▒S[EVl*`ö▒,▒▒Ċ▒▒q▒@q▒wI▒▒▒▒▒▒▒▒s+▒$s▒▒▒E▒▒"|▒▒▒6=▒'▒▒▒▒▒$▒▒N%8▒▒L4▒▒▒▒S▒▒
+
+[BC95]: ƨz▒ԡ3▒▒*▒
+h▒TroDr ▒W͉▒]▒▒▒▒▒F▒▒▒2T▒^▒/▒Z
+▒޶▒▒8U▒qP▒▒k▒▒Қ7p;T▒▒947▒▒D▒9 JvϮDS▒7'"a▒^M▒n>^▒3▒▒▒Փ▒5▒▒▒▒▒ِ4▒▒▒O▒I▒Ⱥx▒ٚ▒▒▒1▒▒ј▒▒Q▒▒▒S'▒ĚDx▒i:▒▒t▒
+W▒I߷▒▒▒o4▒▒▒|▒#▒▒Ӡ▒ɾ▒▒E▒▒▒`.▒▒▒▒N=▒y▒▒,▒j▒▒^▒V▒4c▒ر▒!▒▒YR;▒     Q▒▒▒"▒▒▒▒"▒▒!▒ЊD`▒U▒▒)▒▒H▒▒▒▒Kzb▒1s▒^;3̗▒?▒i▒▒▒gYJvtt▒v▒▒W▒▒2▒▒3▒p▒▒k▒   qȓ:gw▒)▒D0!Z▒▒▒▒▒▒a▒7▒▒▒w.▒^▒_q▒▒▒X▒▒ ▒X'▒/▒ǻ▒▒qH▒V▒Q▒[▒[▒|▒▒/▒o▒=6▒▒4▒V?▒F\P▒ P▒▒#u▒▒IQ]▒Iq▒▒aK▒
+[MCU]: AT+CIPSEND=0,42
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+
+
+[MCU]: ▒▒Ԅh?▒D͢N(A▒w?8w▒T
+[BC95]: Recv 42 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,481:▒▒▒▒▒▒$%
+
+[BC95]: 1P▒▒▒▒▒7▒K▒▒N]▒<▒▒▒▒▒v▒U▒▒&0_,Y▒▒I▒▒C
+▒4▒▒▒▒\▒Eq▒▒▒▒[▒Д▒▒▒▒▒X▒▒j▒J▒▒▒0▒▒b▒S▒▒FL/U▒▒7|&a▒▒▒n▒nY▒'▒▒+NJ?▒d▒▒;▒)j▒▒▒2|?@`▒9▒ũ▒r▒▒▒▒vϓ▒|le▒▒'~\8^
+L▒>qZ▒▒^DD▒UA(%s▒▒@x▒▒g}▒T▒▒�W▒
+=Q▒▒▒▒B▒▒هd▒T
+▒▒j
+▒▒▒9▒x▒}4
+d*▒     ▒}Z▒▒]▒>9▒&-^▒w▒(S▒▒h'l▒5$▒]C▒J▒▒▒Ƙ▒▒▒▒▒▒M▒RcL9▒▒͞▒▒H,W%▒▒▒▒▒z▒:▒▒▒▒▒▒▒▒▒io▒Id▒ɉO▒▒▒ܑi▒▒▒-O^T{▒▒V▒=▒▒U$▒Q▒▒T▒▒▒:▒▒▒▒▒ EW6▒▒q▒▒▒;▒.▒ʬI▒▒▒e▒>▒x▒Rf▒J▒▒▒▒+▒6▒▒▒]▒K m▒▒k▒AH▒
+
+
+[MCU]: AT+CIPSEND=0,34
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒m▒e▒�▒3▒a▒1
+[BC95]: >
+
+
+[BC95]: Recv 34 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[MCU]: AT+CIPSEND=0,37
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+
+
+[MCU]: ▒▒▒#&*~▒▒٘▒/▒▒▒'
+[BC95]: Recv 37 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,50:▒▒%▒▒=▒ĭ▒ؾi▒o▒CwЏ;▒Iu▒ix▒Y▒
+
+
+[MCU]: AT+CIPSEND=0,34
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒8▒▒Y▒cbp▒▒#▒AT+CIPSEND=0,37
+
+
+[BC95]: >
+
+
+[BC95]: Recv 34 bytes
+
+
+[MCU]: ▒▒~z▒N▒v
+▒
+
+[BC95]:
+
+
+[MCU]: 4V%D&
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+
+
+[BC95]: Recv 37 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,40:▒▒+▒▒2_D\P>
+▒▒▒ʱ▒O
+
+
+[MCU]: AT+CIPSEND=0,34
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒▒㖂C&EmAT+CIPSEND=0,37
+
+
+[BC95]: >
+
+
+[BC95]: Recv 34 bytes
+
+
+[MCU]: ▒▒               ▒nFc▒▒▒▒▒▒▒▒
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+
+
+[BC95]: Recv 37 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,33:▒▒ǭ▒#▒T▒▒bB*
+
+
+[BC95]: +IPD,0,31:9%XĢM▒|
+[MCU]: AT+CIPCLOSE=0
+
+
+[BC95]: 0,CLOSED
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIFSR
+
+
+[BC95]: +CIFSR:STAIP,"192.168.1.221"
+
+
+[BC95]: +CIFSR:STAMAC,"5c:cf:7f:07:c6:4a"
+
+
+[MCU]: AT+CIPSTART=0,"UDP","8.8.8.8",53
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: 0,CONNECT
+
+
+[MCU]: AT+CIPSEND=0,47
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]:
+
+
+[MCU]: lwm2m    us-east-1       mbedcloudcom
+[BC95]: OK
+
+
+[BC95]: >
+
+
+[BC95]: Recv 47 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,106:▒▒lwm2m      us-east-1       mbedcloudcom▒
+;mds_platform-production-ca57▒▒;;"▒H▒0,CLOSED
+
+
+[MCU]: AT+CIPCLOSE=0
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIPSTART=0,"UDP","34.234.72.174",5684
+
+
+[BC95]: 0,CONNECT
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIPSEND=0,107
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+[MCU]: ▒▒^RR▒▒]1▒▒▒ԖX▒1
+Q$▒▒絡▒▒,▒▒▒▒▒▒$
+
+
+[BC95]:
+
+
+[MCU]:
+#
+[BC95]: Recv 107 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,60:▒▒/##▒▒ ]1▒▒~▒▒▒▒9M▒r▒▒{▒Q▒▒▒MZ▒ͺ▒
+
+
+[MCU]: AT+CIPSEND=0,139
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒~rr▒▒]1▒▒▒ԖX▒1
+Q$▒▒絡▒▒,▒▒▒▒ ]1▒▒~▒▒▒▒9M▒r▒▒{▒Q▒▒▒MZ▒ͺ▒▒▒$
+
+
+[BC95]: >
+
+
+[MCU]:
+#
+[BC95]: Recv 139 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,1010:▒▒cWW▒▒]1▒▒▒XN▒%▒▒▒T▒sG▒
+_\.▒▒_▒l rO▒M뺿 ▒t"▒Fəb▒▒▒▒I▒▒Y▒▒▒
+▒▒▒
+|y0▒u0▒0::>▒+]:0
+
+[BC95]:*▒H▒=0c1
+0       UGB10Cambridgeshire10U  Cambridge10U
+
+[BC95]: ARM Ltd10U
+ARM LwM2M CA0
+190711072849Z
+191011073849Z0▒▒1
+0       UGB10Cambridgeshire10U  Cambridge10U
+
+[BC95]: ARM Ltd10U
+
+
+[BC95]: mbed Cloud1&0$Ulwm2m.us-east-1.mbedcloud.com0Y0*▒H▒*▒H▒=Bmä▒,
+$▒▒Cl▒▒▒▒y
+R▒▒     V▒J.8M▒▒[▒▒1/2▒▒▒h▒▒
+▒s=▒▒2Y▒▒pF▒G▒▒▒0▒▒0U[)&▒_▒~i▒
+▒▒▒▒▒%av0U#0▒k▒▒▒▒j▒▒cr▒▒▒▒▒▒▒03U,0*0(▒&▒$▒"http://crl.mbedcloud.com/lwm2m.crl0
+U▒00
+
+[BC95]:*▒H▒=H0E!▒;▒%
+▒▒
+
+[BC95]: F▒L▒▒▒ouX#ڵ/▒<q▒Q▒▒▒▒▒Ƶ▒|j'▒fC▒a[▒P▒U▒H▒^0▒▒y▒m▒▒▒▒
+▒▒Ajݣk▒▒3!▒I▒@▒▒▒*▒▒0▒.M▒▒m▒▒▒▒▒▒▒@D$▒
+r▒▒C-▒▒5?iǮ[▒▒i▒G0E >gHQq2▒▒B▒_▒d▒o▒▒Sm▒bl+\ͱ▒
+L!▒▒▒▒▒k▒▒▒CI<$▒T/▒6Ao▒:0▒▒▒▒▒                                                 ▒▒
+
+[MCU]: AT+CIPSEND=0,919
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒▒
+{{xu0▒q0▒▒ﺉEC   ▒#▒:V▒Sh0
+
+[BC95]: >
+[MCU]:*▒H▒=1
+0       UGB10Cambridgeshire10U  Cambridge10U
+
+[MCU]: ARM Ltd10U
+
+
+[MCU]: mbed Cloud10UARM LWM2M Device CA0
+190719112442Z
+210718122442Z0▒▒1
+0       UGB10U
+Cambridgeshire1)0'U
+ 016c0a310a930000000000010010006710U
+
+[MCU]:
+ARM Ltd.1)0'U
+ 01694e404f8e72dc2d58eac5000000001)0'U
+ 016c0a310a93000000000001001000670Y0*▒H▒*▒H▒=B▒▒▒       #*dtm▒3ɉz▒pU▒p▒nVRG    ▒7Pd▒vZ(
+▒2a▒▒7ν▒O▒e@$5
+▒S▒Uْ▒^▒£7050U#0▒S▒▒9▒y▒=Q▒J"v0  +▒ ▒I@▒0
+
+[MCU]:*▒H▒=I0F!▒▒AE
+~▒▒▒▒▒▒9F▒▒▒5▒▒ʡB˛8!Ě
+▒b▒▒,▒t▒▒▒▒▒▒cS▒▒&▒ph▒▒NBBA"L▒▒s▒▒▒▒▒▒▒Mkx▒h▒▒u":▒▒*H@▒▒5
+
+[MCU]: ▒▒L▒V~\▒Ͼ_c▒▒)▒k7▒▒▒XLLH0F!▒▒H▒▒MD▒▒q▒▒▒▒T▒s
+▒▒;F▒~▒
+8!㴎▒MG!yL▒b
+
+[BC95]:
+
+
+[MCU]: ;!▒Aߑ▒3}▒▒/kY▒▒▒▒▒(&Y▒▒+{▒▒▒;▒▒S▒$▒▒▒▒%6y▒b▒▒SJ▒
+[BC95]: Recv 919 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,67:▒▒▒▒(g▒▒_▒C▒#Ҙ\▒Eô▒p▒\▒▒Po&q▒7▒▒=o
+[MCU]: AT+CIPSEND=0,1255
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+[MCU]: ▒▒▒w3f(В▒3Y▒▒▒
+`▒▒▒▒a▒▒{▒▒c%▒▒▒k<▒▒#n▒▒▒       ]▒▒▒t▒g95۳▒{▒fL▒YB
+
+[MCU]: }▒L9▒▒'ޮ▒▒▒1▒▒Ѽ▒CѦ4▒6▒▒xY▒▒▒b▒G▒▒▒▒1-▒:౧F▒▒ϳ▒C▒u=ñ▒▒R▒▒1h▒▒"▒ED+ͨT"▒▒▒Q▒ۨ:▒▒,▒L▒hWS▒▒!▒▒K▒▒T▒▒j▒▒▒▒▒C▒:▒▒J▒X%
+▒x▒-▒̮ɕi▒f▒▒▒Ga▒▒;B▒kMz▒D$▒V髇TTƻ▒1▒=ޞ▒$EW▒mL▒={7w▒▒▒g▒yD:▒
+*e]▒o▒▒▒▒QFy▒C▒▒@N▒▒.y▒▒▒Ђ,Q'wl▒F_~*#▒<▒S▒\[r▒▒BPK6|▒$▒7▒;▒▒u
+Ǧ[▒i▒▒▒p▒▒!▒0h▒3▒m%▒▒n0▒▒I,R▒4▒o        ▒t7H=▒▒▒/lI▒G▒j.I▒▒t▒▒▒▒▒▒gt:▒!|▒
+
+[MCU]: ▒9J▒H▒7▒▒7▒▒▒ôt▒▒▒7▒D6▒▒▒葬▒▒,/▒t.
+
+[MCU]: v1$▒\▒Y▒f▒L2Fvڴ▒vf▒fj▒G▒T\▒▒▒▒▒▒4▒▒▒▒㴈▒=&<▒,
+▒ޙ▒▒▒E&A▒▒b
+
+[MCU]: y▒K▒▒t!▒▒1▒▒▒2▒ŪR)▒2▒G▒▒▒▒▒▒▒▒▒▒▒.7▒▒▒▒S▒▒y▒▒_޹zTg▒4a/d▒#5▒▒▒z▒p▒▒▒▒z▒$▒|▒▒▒^▒Ʒ▒2[C▒▒GB▒m▒bb)7E$▒ϓ▒▒L)0$▒c▒▒"5▒▒Q(▒<▒ò▒T k▒u▒▒▒Y▒▒nO4▒o▒Q        (A▒7▒▒6▒>▒ˣ▒▒▒▒m▒▒rS▒j▒▒▒֟▒▒V$aS▒▒Ib▒▒▒▒▒1▒g▒c8▒▒g▒upZfrW▒▒0▒▒▒r▒7▒Q▒▒b&Q▒9w▒g*2▒▒▒b▒▒k▒WȠ▒▒~fP▒▒0#▒▒<▒`▒P▒Х▒b▒▒w▒▒▒u▒4▒9▒▒=▒d▒U▒▒▒`=?▒zc4i8e▒▒c▒I▒Sr▒'
+▒18▒▒G▒(K▒▒▒▒-I▒#U▒!K▒▒O{▒f▒▒▒Hwf(▒▒[▒LV3▒
+
+[MCU]: ▒▒{▒▒ܯ▒▒^▒t▒s▒1▒ɣp▒▒     N▒֔▒vh2▒K▒▒ ▒R_}g7▒/▒c▒▒▒▒!؝▒▒▒_▒▒▒▒0▒▒GYJ▒4▒▒▒>▒r▒ҏA▒▒K▒
+
+[MCU]: ▒R▒▒L▒▒i¨9H|0▒▒▒L▒Qb-A▒\▒K▒)▒▒▒▒ݩ▒▒▒▒▒▒|▒<Cv
+▒0|▒ˏ
+▒▒▒▒▒u▒P▒▒jt▒-▒▒ța0X▒▒▒|▒▒6▒j▒▒8%▒▒6▒▒▒e'▒3▒O:}▒▒3▒▒▒t2▒?׷Y▒&▒▒UO▒1cU▒▒Fzbj▒▒▒\▒ח▒▒i▒d▒s▒Z▒/▒▒▒▒▒Ʋ쀠▒ ▒
+[BC95]:
+
+
+[BC95]: Recv 1255 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,40:▒▒Ė▒▒▒n▒@U▒▒▒K        ▒Ѓ
+
+
+[MCU]: AT+CIPSEND=0,619
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒^v▒8▒Տ}Ѷ▒▒▒ xC▒2▒N▒̔A▒▒▒▒▒YqEgE▒▒90▒'4a~▒▒|▒Ŭ▒^T▒▒$▒▒"▒▒▒▒Q̡▒`2z▒v▒!▒q▒l▒KϩӨ▒J▒▒▒▒
+
+[BC95]: >
+[MCU]: ▒%>▒ ;H▒%j▒▒▒▒x▒▒▒u
+
+[MCU]: fG`~V
+
+[MCU]: ▒▒"
+X$▒"mx▒!¨7M*A▒Մ▒▒w▒▒h▒[1▒
+%o▒▒▒LU▒z▒b▒g▒▒▒▒▒O▒it▒?▒ƺ▒[Ĵ▒▒▒▒▒R|<p▒▒▒d▒▒▒▒▒3▒▒▒+▒A▒▒LgX
+
+[MCU]: 0n▒▒!/▒93▒F▒ҫP▒[▒▒/▒]▒▒琟p▒▒>D▒▒5▒V=W)▒▒▒▒▒!{h▒▒;G▒sL=▒+:▒       ▒ٷ▒▒▒m/uכzC▒▒ ▒3▒▒C▒d▒ p▒Z▒졤▒Ii▒▒▒▒▒42ȓ{"oeH▒#tUu▒▒▒▒▒$▒▒ւ▒"▒▒▒Pm7▒G▒BH▒▒gQ▒▒▒Hn▒▒\▒o\u▒▒I▒▒▒mImj▒R%eǠc▒ʣ▒▒▒▒>j▒Z▒&▒;▒T▒▒(▒
+▒N▒▒>$d▒▒,hp[
+▒;▒+[▒׹▒Ǆ@}▒▒昶ܽ▒U
+a▒Ag▒te▒0▒▒.
+
+[MCU]: ▒▒▒▒k
+▒Y▒ ▒▒&1
+▒&o
+▒▒awW▒d▒q▒d*▒qú=`▒_▒'
+
+[MCU]:  X▒DmV▒2▒bZ
+[BC95]:
+
+
+[BC95]: Recv 619 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,114:▒▒eW▒▒{>▒t2oI▒yY▒▒R▒{▒▒~▒B-^
+g▒▒Dl▒▒▒
+h▒▒h▒^▒K▒ܒ▒@▒e▒▒▒a.o▒#+▒▒▒▒
+▒#_C q▒Kx▒ғ^
+
+4▒
+
+
+[BC95]: +IPD,0,48:▒▒#▒▒}FEQa▒▒{d!▒(3=▒▒w▒▒▒H
+[MCU]: AT+CIPSEND=0,37
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+
+
+[MCU]: ▒▒,&▒▒JK▒▒▒\▒x▒
+[BC95]: Recv 37 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,44:▒▒ZT▒S▒4!l▒V%▒3▒▒▒▒<#▒▒
+
+
+[MCU]: AT+CIPSEND=0,37
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒▒ES(▒1▒▒.9▒qx
+[BC95]: >
+
+
+[BC95]: Recv 37 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,48:▒▒#z▒                                                        ▒#▒R▒z▒▒n▒d▒▒▒NN▒{▒
+
+
+[MCU]: AT+CIPSEND=0,37
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒▒y0▒▒▒▒▒▒▒▒p▒^
+[BC95]: >
+
+
+[BC95]: Recv 37 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+[BC95]: l|l|
+|▒b
+▒nln▒bp▒p▒n
+n|
+▒nn▒l▒lnr▒▒lp▒n▒▒
+n|▒▒nnl▒lnr▒▒
+p▒n▒▒
+n|▒▒
+▒nnl▒lnr▒▒l▒l▒▒▒n▒▒n▒
+l~llll▒n▒~▒ll▒b▒
+b▒
+brb▒
+bbl▒
+▒l|l
+[BC95]: ▒0x1fc000
+[BC95]: ▒▒▒|▒l▒
+|ln
+▒nl▒rll▒rll▒r
+lr▒▒b▒▒▒▒n▒nll▒n▒▒b▒
+▒▒b▒
+
+
+[BC95]: ready
+
+
+[MCU]: AT
+
+
+[BC95]: AT
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+RST
+
+
+[BC95]: AT+RST
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]:
+
+
+[BC95]:  ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+
+[BC95]:
+
+
+[BC95]: load 0x40100000, len 2408, room 16
+
+
+[BC95]: tail 8
+
+
+[BC95]: chksum 0xe5
+
+
+[BC95]: load 0x3ffe8000, len 776, room 0
+
+
+[BC95]: tail 8
+
+
+[BC95]: chksum 0x84
+
+
+[BC95]: load 0x3ffe8310, len 632, room 0
+
+
+[BC95]: tail 8
+
+
+[BC95]: chksum 0xd8
+
+
+[BC95]: csum 0xd8
+
+
+[BC95]:
+
+
+[BC95]: 2nd boot version : 1.6
+
+
+[BC95]:   SPI Speed      : 40MHz
+
+
+[BC95]:   SPI Mode       : QIO
+
+
+[BC95]:   SPI Flash Size & Map: 16Mbit(1024KB+1024KB)
+
+
+[BC95]: jump to run user1 @ 1000
+
+
+[BC95]:
+
+
+[BC95]: ▒0x1fc000
+[BC95]: ▒▒▒|▒l▒
+|ln
+▒nl▒rll▒rll▒r
+lr▒▒b▒▒▒▒n▒nll▒n▒▒b▒
+▒▒b▒
+
+
+[BC95]: ready
+
+
+[MCU]: AT
+
+
+[BC95]: AT
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: ATE0
+
+
+[BC95]: ATE0
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+GMR
+
+
+[BC95]: AT version:1.7.0.0(Aug 16 2018 00:57:04)
+
+
+[BC95]: SDK version:3.0.0(d49923c)
+
+
+[BC95]: compile time:Aug 23 2018 16:58:12
+
+
+[BC95]: Bin version(Wroom 02):v1.7.0
+
+
+[BC95]: OK
+
+
+[MCU]: AT+GMR
+
+
+[BC95]: AT version:1.7.0.0(Aug 16 2018 00:57:04)
+
+
+[BC95]: SDK version:3.0.0(d49923c)
+
+
+[BC95]: compile time:Aug 23 2018 16:58:12
+
+
+[BC95]: Bin version(Wroom 02):v1.7.0
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CWMODE_DEF=1
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIPRECVMODE=1
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CWMODE_CUR=1
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIPMUX=1
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIFSR
+
+
+[BC95]: +CIFSR:STAIP,"0.0.0.0"
+
+
+[BC95]: +CIFSR:STAMAC,"5c:cf:7f:07:c6:4a"
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CWDHCP_CUR=1,1
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CWJAP_CUR="rhombio","pelionready"
+
+
+[BC95]: WIFI CONNECTED
+
+
+[BC95]: WIFI GOT IP
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIFSR
+
+
+[BC95]: +CIFSR:STAIP,"192.168.1.221"
+
+
+[BC95]: +CIFSR:STAMAC,"5c:cf:7f:07:c6:4a"
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIFSR
+
+
+[BC95]: +CIFSR:STAIP,"192.168.1.221"
+
+
+[BC95]: +CIFSR:STAMAC,"5c:cf:7f:07:c6:4a"
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIPSTART=0,"UDP","8.8.8.8",53
+
+
+[BC95]: 0,CONNECT
+
+
+[BC95]:
+
+
+[MCU]: AT+CIPSEND=0,47
+
+
+[BC95]: OK
+
+
+[MCU]: lwm2m    us-east-1       mbedcloudcom
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+
+
+[BC95]: Recv 47 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,106:▒▒lwm2m      us-east-1       mbedcloudcom▒
+;mds_platform-production-ca57▒▒;;"▒10,CLOSED
+
+
+[MCU]: AT+CIPCLOSE=0
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[MCU]: AT+CIPSTART=0,"UDP","34.230.180.49",5684
+
+
+[BC95]: 0,CONNECT
+
+
+[BC95]:
+
+
+[MCU]: AT+CIPSEND=0,107
+
+
+[BC95]: OK
+
+
+[BC95]:
+
+
+[MCU]: ▒▒^RR▒▒]1▒▒'▒w▒
+▒]▒X▒`E▒▒g▒.▒DցʯM▒▒$
+
+
+[BC95]: OK
+
+
+[MCU]:
+#
+[BC95]: >
+
+
+[BC95]: Recv 107 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,60:▒▒/##▒▒ ]1▒▒▒p▒_8▒"▒ٰ▒a▒▒j▒,▒T▒
+h+▒
+
+
+[MCU]: AT+CIPSEND=0,139
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒~rr▒▒]1▒▒'▒w▒
+▒]▒X▒`E▒▒g▒.▒DցʯM ]1▒▒▒p▒_8▒"▒ٰ▒a▒▒j▒,▒T▒
+h+▒▒▒$
+
+
+[BC95]: >
+
+
+[MCU]:
+#
+[BC95]: Recv 139 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,1009:▒▒cWW▒▒]1▒▒2J▒▒[▒T▒▒▒
+FK▒Ho▒▒▒*L▒
+�^E▒gf5߻▒▒R▒▒,J▒ߌ▒
+
+[BC95]: ▒▒▒▒
+▒▒▒
+|y0▒u0▒0::>▒+]:0
+
+[BC95]:*▒H▒=0c1
+0       UGB10Cambridgeshire10U  Cambridge10U
+
+[BC95]: ARM Ltd10U
+ARM LwM2M CA0
+190711072849Z
+191011073849Z0▒▒1
+0       UGB10Cambridgeshire10U  Cambridge10U
+
+[BC95]: ARM Ltd10U
+
+
+[BC95]: mbed Cloud1&0$Ulwm2m.us-east-1.mbedcloud.com0Y0*▒H▒*▒H▒=Bmä▒,
+$▒▒Cl▒▒▒▒y
+R▒▒     V▒J.8M▒▒[▒▒1/2▒▒▒h▒▒
+▒s=▒▒2Y▒▒pF▒G▒▒▒0▒▒0U[)&▒_▒~i▒
+▒▒▒▒▒%av0U#0▒k▒▒▒▒j▒▒cr▒▒▒▒▒▒▒03U,0*0(▒&▒$▒"http://crl.mbedcloud.com/lwm2m.crl0
+U▒00
+
+[BC95]:*▒H▒=H0E!▒;▒%
+▒▒
+
+[BC95]: F▒L▒▒▒ouX#ڵ/▒<q▒Q▒▒▒▒▒Ƶ▒|j'▒fC▒a[▒P▒U▒H▒^0▒▒y▒m▒▒▒▒
+▒▒A▒W▒7E▒a▒:▒֧[▒p폒▒▒▒9▒g▒SJ▒XϘ▒▒▒Zu▒▒[▒▒▒/▒$▒▒▒▒V▒F0D
+▒▒▒I▒▒h▒$)F▒٠▒%▒▒▒▒▒=U▒h▒ ,▒▒▒▒Ov▒\k▒eA▒B▒▒▒▒2▒ި▒▒p$▒▒                          ▒▒
+
+[MCU]: AT+CIPSEND=0,918
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+[MCU]: ▒▒▒
+{{xu0▒q0▒▒ﺉEC   ▒#▒:V▒Sh0
+
+[MCU]:*▒H▒=1
+0       UGB10Cambridgeshire10U  Cambridge10U
+
+[MCU]: ARM Ltd10U
+
+
+[MCU]: mbed Cloud10UARM LWM2M Device CA0
+190719112442Z
+210718122442Z0▒▒1
+0       UGB10U
+Cambridgeshire1)0'U
+ 016c0a310a930000000000010010006710U
+
+[MCU]:
+ARM Ltd.1)0'U
+ 01694e404f8e72dc2d58eac5000000001)0'U
+ 016c0a310a93000000000001001000670Y0*▒H▒*▒H▒=B▒▒▒       #*dtm▒3ɉz▒pU▒p▒nVRG    ▒7Pd▒vZ(
+▒2a▒▒7ν▒O▒e@$5
+▒S▒Uْ▒^▒£7050U#0▒S▒▒9▒y▒=Q▒J"v0  +▒ ▒I@▒0
+
+[MCU]:*▒H▒=I0F!▒▒AE
+~▒▒▒▒▒▒9F▒▒▒5▒▒ʡB˛8!Ě
+▒b▒▒,▒t▒▒▒▒▒▒cS▒▒&▒ph▒▒NBBAj▒v
+▒▒V▒▒▒J▒P▒▒▒▒,m▒
+
+[MCU]: ?▒#▒▒
+▒#W¼▒▒▒▒0▒2▒^▒▒FL▒i(fK▒Dm@%▒▒WKKG0E!▒0_▒*▒0▒▒.d▒P▒#▒▒1gL▒▒▒ 1^V]▒▒:z▒
+
+[MCU]: uH2▒<ah▒▒▒▒?VB;▒8▒▒▒▒(h▒▒7/
+tLD\+▒l▒▒i▒▒▒▒▒ZK▒v;`K▒▒
+[BC95]:
+
+
+[BC95]: Recv 918 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,67:▒▒▒▒(G▒▒:▒m{d$b▒      ▒▒▒kȔ▒>▒▒q▒lk▒▒R
+[MCU]: AT+CIPSEND=0,1255
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+[MCU]: ▒▒▒▒M▒;p▒P▒▒▒▒▒▒▒k~I▒y▒$T9>-▒~K▒▒&▒h▒5▒▒▒▒▒m▒)▒▒T▒▒▒Od▒▒#@▒؀47▒a▒▒?▒4S▒H▒▒T~B▒▒▒  j5W▒▒▒ʽ^▒`▒▒▒v
+}▒')▒▒▒.P▒▒'▒▒▒Rm▒▒▒▒▒b􍡶▒f▒i▒▒J3▒▒▒▒c
+▒Lq▒▒N▒^▒?▒▒[[▒▒`▒r▒▒▒k▒▒J+=▒▒▒▒▒▒B▒#▒▒z▒▒▒▒B`▒▒d
+
+[MCU]: ▒v▒1▒▒;▒▒:▒▒▒^▒▒ ▒
+
+[MCU]: b▒Z▒M▒SRaG+▒▒F▒d▒▒▒▒ph▒pL▒g^▒1▒n▒ A䫖▒▒@▒▒▒▒▒▒8▒▒:▒
+
+[MCU]: ??▒>▒▒[G▒▒▒▒m▒a▒~▒R▒▒▒8▒7<▒i▒b▒▒x▒L▒▒`▒TQm▒':▒▒tҚ*▒V~)▒<▒G▒▒▒T▒~`▒▒▒)▒▒;▒▒▒
+▒▒(a▒▒▒▒▒(6▒V▒Yk▒▒▒▒▒▒u▒8P.▒▒▒▒<HCg▒LG,▒~▒,
+▒▒▒▒"▒d{"▒▒
+C▒r▒▒o▒▒A?▒▒
+▒▒:     ▒▒▒▒/▒▒▒▒n▒ל▒<▒T▒"&drv▒▒fU▒▒▒▒C9)▒_▒▒▒▒▒b▒b6▒O▒7▒▒▒30=cY▒ yo▒▒<R▒=7▒0▒▒^-
+rd▒▒T▒ab▒܊gr▒p▒Q
+
+[MCU]: a▒▒▒▒9▒▒쐿▒h▒ru▒▒▒(IX▒▒a▒J▒^ʅ
+▒(
+8▒-▒▒7t▒▒▒▒▒▒gs▒▒V
+
+[MCU]: ▒▒k!▒▒u▒׳▒!▒0▒▒}*▒▒▒▒ͼ#▒'▒▒▒[▒ܔg▒Y,▒vA▒▒vB[g>▒l▒a▒i▒▒y▒
+
+[MCU]: ▒▒ބ▒"+▒▒i▒▒▒J▒Vtb*"▒▒&▒▒▒▒▒.)▒▒XL▒6m▒▒ise▒"▒۠H
+
+[MCU]: ^▒{IGe▒"D▒▒▒4▒▒▒ݎbą▒▒▒▒▒i@▒kI▒▒B9▒@▒▒▒▒:▒4v▒▒x▒zsH+▒A▒▒1Q▒▒L▒8ص▒79▒▒l▒h▒A▒H*▒ׄ ▒
+
+[MCU]: ▒avv▒▒D▒▒FZC|ǥG▒▒͏▒▒▒▒p.▒▒<Q▒▒▒▒▒5#▒6XG▒▒2a▒▒*▒▒9▒v▒~▒▒тRVz
+ЖE▒▒+▒k湆▒▒E`x▒▒▒-O3▒xdK▒▒
+
+[MCU]:
+▒w▒▒▒▒▒d▒5▒▒z<▒v▒▒5E
+
+[MCU]: N5▒▒I2▒*%▒T▒▒▒▒▒▒cI▒Gl+▒EZ▒I>▒▒#▒YlT8▒X▒c^!▒▒▒y▒W]<▒Cp▒3s▒ho|▒+)3q▒G▒▒▒▒ݜd▒.▒C▒=E▒▒▒▒▒▒H▒▒
+▒(▒h:▒ӎ▒▒'▒▒<▒@.U▒▒▒.(YqG▒▒▒q1▒>▒˺▒▒w▒▒▒▒▒▒wA▒▒▒
+,▒�n▒▒▒▒0▒▒VS▒j▒@▒▒▒ɞ▒S&X▒v▒%z`@\_j
+[BC95]:
+
+
+[BC95]: Recv 1255 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,40:▒▒cqF▒[▒▒oh▒
+
+[BC95]: \l}▒▒
+[MCU]: AT+CIPSEND=0,634
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+[MCU]: ▒▒mlh▒▒'*▒▒*@▒G▒▒▒8▒LR1▒f{▒G\y▒▒
+hif▒h@ɱyK7▒8v,▒wo+5j▒▒s▒▒*0▒/▒▒▒H▒▒_|▒ű▒▒▒▒▒(e▒▒vs▒▒5▒
+▒1▒,▒P▒▒ԃ▒▒)▒k▒3-`j▒ΝAx˜▒▒▒▒4▒▒e▒M3P�▒▒▒8▒▒▒RMFx▒
+▒d▒Rv▒"▒j▒▒▒!▒KV▒▒̊▒|;▒▒X▒{▒▒N▒▒▒i▒▒▒<m▒▒:▒d▒֎▒(▒▒J▒:▒W▒▒▒1▒▒=7▒sO▒▒%▒▒+C▒▒|!▒".DRϷ▒2s▒°▒A\)m▒▒{▒'▒WD▒▒▒1
+cT▒˜▒C,Ƃ▒Hј▒▒u▒,▒6)s▒▒C3▒▒▒w▒wΊĩpYo'>▒▒l▒▒N▒▒\W▒2O▒ɀ▒▒{+▒o▒▒sĎ▒a▒▒▒u.▒4f▒▒w▒R" ▒<bm▒▒|▒s▒>▒տ
+
+[MCU]:
+▒ӘB_▒▒▒gE▒▒▒7▒▒2▒▒k▒▒v▒?5*Z!G▒}ևz8▒▒▒▒ęM▒▒(▒*▒5a▒L▒?▒▒▒S▒NtR*▒3M
+D2▒S▒%"▒fr▒
+Ā▒▒▒▒_▒▒=[▒▒▒8}▒}▒▒eذ▒z5▒▒z0-*▒h~▒dyk▒F%#▒▒▒▒▒▒Ȭ/=▒H6▒Q▒Oy▒▒▒1`▒▒▒h蕢▒▒▒▒▒,▒d▒Lhv▒?▒▒P▒D▒8@▒
+[BC95]:
+
+
+[BC95]: Recv 634 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,114:▒▒e#▒▒l▒▒▒f▒̤Ɍ▒{czL▒v&A▒|g▒▒0q▒.^f▒6
+▒▒▒c▒|▒Q@g▒)▒BY
+
+[BC95]: Qad▒\$  %▒▒2▒{▒▒<7▒it▒c▒▒Wh:▒Ԥ▒
+
+
+[BC95]: +IPD,0,48:▒▒#n؉▒▒p%▒▒XRJ▒a4▒S<)od▒▒
+S
+[MCU]: AT+CIPSEND=0,37
+
+
+[BC95]:
+
+
+[BC95]: OK
+
+
+[BC95]: >
+
+
+[MCU]: ▒▒N[▒\L▒▒▒▒▒▒5▒▒)g
+[BC95]: Recv 37 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,44:▒▒▒3▒
+ӹ'/d▒46d▒▒f7M▒ΰV▒
+
+
+[MCU]: AT+CIPSEND=0,37
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒g㑥▒f▒TԧM▒▒q
+[BC95]: >
+
+
+[BC95]: Recv 37 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+
+
+[BC95]:
+
+
+[BC95]: +IPD,0,48:▒▒#J▒˵▒kT▒▒▒j#w▒▒▒2E▒3▒_▒V
+
+
+[MCU]: AT+CIPSEND=0,37
+
+
+[BC95]: OK
+
+
+[MCU]: ▒▒TNS▒
+▒&▒u▒8~R▒
+
+[BC95]: >
+
+
+[BC95]: Recv 37 bytes
+
+
+[BC95]:
+
+
+[BC95]: SEND OK
+New Serial speed:
+
+115200 bauds

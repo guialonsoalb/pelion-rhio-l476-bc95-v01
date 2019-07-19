@@ -265,7 +265,7 @@ nsapi_size_or_error_t QUECTEL_BC95_CellularStack::socket_recvfrom_impl(CellularS
     _at.skip_param();
     _at.read_string(ip_address, sizeof(ip_address));
     port = _at.read_int();
-    recv_len = _at.read_int();      // guille moved this line (it was avobe read_hex_string before)
+    recv_len = _at.read_int();      
     int hexlen = _at.read_hex_string((char *)buffer, size);
 
     // remaining length

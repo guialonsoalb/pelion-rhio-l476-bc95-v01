@@ -1,0 +1,1355 @@
++▒▒▒e+▒,]KW▒K▒▒▒V▒V▒▒X▒or-client\source\fcc_dev_flow.c:97:fcc_developer_flow:<==                  = Store status: 8, Failed <DAPLink:Overflow>
+
+[ERR ][fcc ]: .\simple-mbed-cloud-c<DAPLink:Overflow>
+
+[ERR ][PAL ]: SSL handshake return code 0xffff9400.
+
+
+[ERR ][mClt]: M2MConnectionScurityPimpl::start_handshake pal_handShake() error f                  ffffff0
+
+
+[ERR ][mClt]: M2MConnectionHandlerPimpl::receive_handshake_handler() - SSL_HANDS                  HAKE_ERROR
+
+
+[ERR ][mClt]: M2MInterfaceImpl::socket_error: (-11), retry (1), reconnecting (0)                  , reconnection_state (0)
+
+
+[ERR ][mClt]: ConnectorClient::error() - error: 11
+
+
+[ERR ][mClt]: ServiceClient::connector_error() error 11
+
+
+[ERR ][mClt]: ServiceClient::state_failure()
+
+
+[ERR ][mClt]: MbedCloudClient::error code (11)
+
+
+
+[SMCC] Error occurred : MbedCloudClient::ConnectSecureConnectionFailed
+
+[SMCC] Error code : 11
+
+[SMCC] Error details : Client in reconnection mode SecureConnectionFailed
+
+
+[ERR ][mClt]: ServiceClient::state_failure()
+
+
+
+ADC temp: 22.9304 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0281 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0037 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0037 C,  vref: 0.3670 V
+
+
+[ERR ][mClt]: M2MConnectionHandlerPimpl::receive_handshake_handler() - Max TLS retry fail
+
+
+[ERR ][mClt]: M2MInterfaceImpl::socket_error: (-9), retry (1), reconnecting (1), reconnection_state (0)
+
+
+[ERR ][mClt]: ConnectorClient::error() - error: 6
+
+
+[ERR ][mClt]: ServiceClient::connector_error() error 6
+
+
+
+
+[ERR ][mClt]: MbedCloudClient::error code (6)
+
+ADC temp: 23.0281 C,  vref: 0.3673 V
+
+
+
+[SMCC] Error occurred : MbedCloudClient::ConnectNetworkError
+
+[SMCC] Error code : 6
+
+[SMCC] Error details : Client in reconnection mode NetworkError
+
+
+[ERR ][mClt]: ServiceClient::state_failure()
+
+
+
+ADC temp: 23.0281 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.0525 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0037 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0281 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0281 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.0525 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.0281 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0281 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.0281 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.1013 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1013 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0769 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1013 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1013 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0769 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1013 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0769 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0769 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.0769 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.0769 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1013 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1502 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.1013 C,  vref: 0.3670 V
+
+
+[ERR ][mClt]: M2MConnectionHandlerPimpl::receive_handshake_handler() - Max TLS retry fail
+
+
+[ERR ][mClt]: M2MInterfaceImpl::socket_error: (-9), retry (1), reconnecting (1), reconnection_state (0)
+
+
+[ERR ][mClt]: ConnectorClient::error() - error: 6
+
+
+[ERR ][mClt]: ServiceClient::connector_error() error 6
+
+
+[ERR ][mClt]: MbedCloudClient::error code (6)
+
+
+
+[SMCC] Error occurred : MbedCloudClient::ConnectNetworkError
+
+[SMCC] Error code : 6
+
+[SMCC] Error details : Client in reconnection mode NetworkError
+
+
+[ERR ][mClt]: ServiceClient::state_failure()
+
+
+
+ADC temp: 23.1258 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1502 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1502 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1258 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1258 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1258 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1258 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.1258 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1502 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1258 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1502 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.1746 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.1502 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.1258 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1258 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.1258 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1502 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1502 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.1746 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1990 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.1990 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.1746 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.1746 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1502 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.1746 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1990 C,  vref: 0.3673 V
+
+
+[ERR ][mClt]: M2MConnectionHandlerPimpl::receive_handshake_handler() - Max TLS retry fail
+
+
+[ERR ][mClt]: M2MInterfaceImpl::socket_error: (-9), retry (1), reconnecting (1), reconnection_state (0)
+
+
+[ERR ][mClt]: ConnectorClient::error() - error: 6
+
+
+[ERR ][mClt]: ServiceClient::connector_error() error 6
+
+
+[ERR ][mClt]: MbedCloudClient::error code (6)
+
+
+
+[SMCC] Error occurred : MbedCloudClient::ConnectNetworkError
+
+[SMCC] Error code : 6
+
+[SMCC] Error details : Client in reconnection mode NetworkError
+
+
+[ERR ][mClt]: ServiceClient::state_failure()
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1990 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.1990 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1990 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1990 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.1990 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.1990 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.1990 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3670 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2234 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2479 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2479 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2479 C,  vref: 0.3675 V
+
+
+[ERR ][mClt]: M2MConnectionHandlerPimpl::receive_handshake_handler() - Max TLS retry fail
+
+
+[ERR ][mClt]: M2MInterfaceImpl::socket_error: (-9), retry (1), reconnecting (1), reconnection_state (0)
+
+
+[ERR ][mClt]: ConnectorClient::error() - error: 6
+
+
+[ERR ][mClt]: ServiceClient::connector_error() error 6
+
+
+[ERR ][mClt]: MbedCloudClient::error code (6)
+
+
+
+[SMCC] Error occurred : MbedCloudClient::ConnectNetworkError
+
+[SMCC] Error code : 6
+
+[SMCC] Error details : Client in reconnection mode NetworkError
+
+
+[ERR ][mClt]: ServiceClient::state_failure()
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2967 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2967 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2967 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2967 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.2967 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.2723 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.2967 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.2967 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.3455 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3455 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.3455 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3673 V
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3675 V
+
+
+[ERR ][mClt]: M2MConnectionHandlerPimpl::receive_handshake_handler() - Max TLS retry fail
+
+
+[ERR ][mClt]: M2MInterfaceImpl::socket_error: (-9), retry (1), reconnecting (1), reconnection_state (0)
+
+
+[ERR ][mClt]: ConnectorClient::error() - error: 6
+
+
+[ERR ][mClt]: ServiceClient::connector_error() error 6
+
+
+[ERR ][mClt]: MbedCloudClient::error code (6)
+
+
+
+[SMCC] Error occurred : MbedCloudClient::ConnectNetworkError
+
+[SMCC] Error code : 6
+
+[SMCC] Error details : Client in reconnection mode NetworkError
+
+
+[ERR ][mClt]: ServiceClient::state_failure()
+
+
+
+ADC temp: 23.3211 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.3700 C,  vref: 0.3673 V
+
+
+Starting Simple Pelion Device Management Client example
+
+
+
+Push button to format the storage
+
+You can hold <DAPLink:Overflow>
+
+
+BC95 set up done...............
+
+
+
+Sensors configuration:
+
+
+
+Connecting to the network...
+
+cS▒JS▒J_▒▒ۤn▒S▒▒▒O▒▒k▒׼{▒▒gR▒Ǭ▒K▒▒W▒▒▒k▒K▒▒W▒▒▒[[c▒o▒▒o▒▒o▒▒▒▒▒
+cS▒JS▒J_▒▒ۤn▒S▒▒▒O▒▒k▒׼{▒▒gR▒Ǭ▒K▒▒K▒c̉{c▒▒[[c▒o▒▒o▒▒o▒▒▒▒▒▒[BOOT] Mbed Bootloader
+
+[BOOT] ARM: 0000000000000000000000000000000000000000
+
+[BOOT] OEM: 0000000000000000000000000000000000000000
+
+[BOOT] Layout: 0 800D24C
+
+[BOOT] Active firmware integrity check:
+
+[BOOT] SHA256: 5E3A26AB8972D090AB8FD14B982C38974FCE4F230B163268A64FC89DD57E83DA
+
+[BOOT] Version: 1563538293
+
+[BOOT] Slot 0 firmware is of older date
+
+[BOOT] Version: 1558621653
+
+[BOOT] Active firmware up-to-date
+
+[BOOT] Application's start address: 0x8010400
+
+[BOOT] Application's jump address: 0x8010889
+
+[BOOT] Application's stack address: 0x20018000
+
+[BOOT] Forwarding to application...
+
+{0▒
+
+Starting Simple Pelion Device Management Client example
+
+
+
+Push button to format the storage
+
+You can hold the user button during boot to format the storage and change the device identity.
+
+
+
+BC95 set up...............
+
+
+
+BC95 set up done...............
+
+
+
+Sensors configuration:
+
+
+
+Connecting to the network...
+
+Unable to connect to network. Retrying...
+
+Unable to connect to network. Retrying...
+
+Unable to connect to network. Retrying...
+
+ERROR: Connecting to the network failed (-3014)!
+
+[BOOT] Mbed Bootloader
+
+[BOOT] ARM: 00000000<DAPLink:Overflow>
+0000000000
+
+[BOOT] Layout: 0 800D24C
+
+[BOOT] Active firmware integrity check:
+
+[BOOT] SHA256: AA66FDA5EC2C2D17CCD5073FA9153258130763465A153AB3900063E0F304A9F7
+
+[BOOT] Version: 1563538991
+
+[BOOT] Slot 0 firmware is of older date
+
+[BOOT] Version: 1558621653
+
+[BOOT] Active firmware up-to-date
+
+[BOOT] Application's start address: 0x8010400
+
+[BOOT] Application's jump address: 0x8010889
+
+[BOOT] Application's stack address: 0x20018000
+
+[BOOT] Forwarding to application...
+
+{0▒
+
+Starting Simple Pelion Device Management Client example
+
+
+
+Push button to format the storage
+
+You can hold the user button during boot to format the storage and change the device identity.
+
+
+
+BC95 set up...............
+
+
+
+BC95 set up done...............
+
+
+
+Sensors configuration:
+
+
+
+Connecting to the network...
+
+Connected to the network successfully. IP address: 192.168.1.221
+
+Initializing Pelion Device Management Client...
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\factory-configurator-client\source\factory_configurator_client.c:272:fcc_rot_set:<=== RoT already exist in storage
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:280:storage_rbp_write:<=== The item was already written to sotp
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\factory-configurator-client\source\factory_configurator_client.c:370:fcc_trust_ca_cert_id_set:CA already exist in storage
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\factory-configurator-client\source\fcc_dev_flow.c:101:fcc_developer_flow:<=== Failed to set ca certificate identifier
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\factory-configurator-client\source\fcc_verification.c:262:verify_certificate_expiration:time is (0)
+
+Initialized Pelion Client. Registering...
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.SoftwareVersion] kcm get error 5
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:1250:storage_file_read_with_ctx:<=== Buffer too small
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:444:storage_data_read:Failed reading file from storage (3)
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\key-config-manager\source\key_config_manager.c:175:kcm_item_get_data:<=== Failed during storage_data_read
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.SoftwareVersion] kcm get error 5
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.CurrentTime] kcm get error 5
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.Timezone] kcm get error 5
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.UTCOffset] kcm get error 5
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.InternalEndpoint] kcm get error 5
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.AccountID] kcm get error 5
+
+
+[ERR ][PAL ]: SSL Read return code -30848.
+
+
+[ERR ][mClt]: M2MConnectionHandlerPimpl::receive_handler() - peer close notify!
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.FirstToClaim] kcm get error 5
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_set_item error, invalid parameters
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.AccountID] kcm get error 5
+
+Registered to Pelion Device Management. Endpoint Name: 016c0a310a9300000000000100100067
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.5165 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.5409 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.5165 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.5165 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.5165 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.5165 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.5165 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.5165 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.5165 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.5165 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.5165 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.5409 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3683 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4921 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.3944 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4676 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3675 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.4188 C,  vref: 0.3678 V
+
+[BOOT] Mbed Bootloader
+
+[BOOT] ARM: 0000000000000000000000000000000000000000
+
+[BOOT] OEM: 0000000000000000000000000000000000000000
+
+[BOOT] Layout: 0 800D24C
+
+[BOOT] Active firmware integrity check:
+
+[BOOT] SHA256: AA66FDA5EC2C2D17CCD5073FA9153258130763465A153AB3900063E0F304A9F7
+
+[BOOT] Version: 1563538991
+
+[BOOT] Slot 0 firmware is of older date
+
+[BOOT] Version: 1558621653
+
+[BOOT] Active firmware up-to-date
+
+[BOOT] Application's start address: 0x8010400
+
+[BOOT] Application's jump address: 0x8010889
+
+[BOOT] Application's stack address: 0x20018000
+
+[BOOT] Forwarding to application...
+
+{0▒
+
+Starting Simple Pelion Device Management Client example
+
+
+
+Push button to format the storage
+
+You can hold the user button during boot to format the storage and change the device identity.
+
+
+
+BC95 set up...............
+
+
+
+BC95 set up done...............
+
+
+
+Sensors configuration:
+
+
+
+Connecting to the network...
+
+Connected to the network successfully. IP address: 192.168.1.221
+
+Initializing Pelion Device Management Client...
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\factory-configurator-client\source\factory_configurator_client.c:272:fcc_rot_set:<=== RoT already exist in storage
+
+
+[ERR ][esfs]: esfs_create() - pal_fsFopen() for working dir file failed
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:1099:storage_file_create:File already exist in ESFS (esfs_status 5)
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:947:storage_file_write:<=== Failed to create new file
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:332:storage_data_write_impl:Failed writing file to storage
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_common.c:123:storage_data_write:<=== storage_data_write_impl failed
+
+
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\key-config-manager\source\key_config_manager.c:148:kcm_item_store:<=== Failed during storage_data_write
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\factory-configurator-client\source\fcc_dev_flow.c:97:fcc_developer_flow:<=== Store status: 8, Failed to store mbed.UseBootstrap
+
+Initialized Pelion Client. Registering...
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.SoftwareVersion] kcm get error 5
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:1250:storage_file_read_with_ctx:<=== Buffer too small
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:444:storage_data_read:Failed reading file from storage (3)
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\key-config-manager\source\key_config_manager.c:175:kcm_item_get_data:<=== Failed during storage_data_read
+
+
+[ERR ][esfs]: esfs_create() - pal_fsFopen() for working dir file failed
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:1099:storage_file_create:File already exist in ESFS (esfs_status 5)
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:947:storage_file_write:<=== Failed to create new file
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:332:storage_data_write_impl:Failed writing file to storage
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_common.c:123:storage_data_write:<=== storage_data_write_impl failed
+
+
+
+
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\key-config-manager\source\key_config_manager.c:148:kcm_item_store:<=== Failed during storage_data_write
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.SoftwareVersion] kcm get error 5
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.Timezone] kcm get error 5
+
+
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.UTCOffset] kcm get error 5
+
+Registered to Pelion Device Management. Endpoint Name: 016c0a310a9300000000000100100067
+
+
+
+ADC temp: 23.3700 C,  vref: 0.3678 V
+
+
+
+ADC temp: 23.3944 C,  vref: 0.3680 V
+
+
+
+ADC temp: 23.4432 C,  vref: 0.3678 V

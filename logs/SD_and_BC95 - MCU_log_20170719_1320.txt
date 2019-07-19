@@ -1,0 +1,45 @@
+cS▒JS▒J_▒▒▒▒S▒▒▒O▒▒k▒׼{▒▒gR▒Ǭ▒
+Starting Simple Pelion Device Management Client example
+Storage mounting failed.
+
+Push button to format the storage
+Formatting the storage...
+
+BC95 set up...............
+
+BC95 set up done...............
+
+Sensors configuration:
+
+Connecting to the network...
+Connected to the network successfully. IP address: 10.175.25.11
+Initializing Pelion Device Management Client...
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\factory-configurator-client\source\factory_configurator_client.c:272:fcc_rot_set:<=== RoT already exist in storage
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:280:storage_rbp_write:<=== The item was already written to sotp
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\factory-configurator-client\source\factory_configurator_client.c:370:fcc_trust_ca_cert_id_set:CA already exist in storage
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\factory-configurator-client\source\fcc_dev_flow.c:101:fcc_developer_flow:<=== Failed to set ca certificate identifier
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\factory-configurator-client\source\fcc_verification.c:262:verify_certificate_expiration:time is (0)
+Initialized Pelion Client. Registering...
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.SoftwareVersion] kcm get error 5
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:1250:storage_file_read_with_ctx:<=== Buffer too small
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\storage\source\storage_esfs.c:444:storage_data_read:Failed reading file from storage (3)
+[ERR ][fcc ]: .\simple-mbed-cloud-client\mbed-cloud-client\factory-configurator-client\key-config-manager\source\key_config_manager.c:175:kcm_item_get_data:<=== Failed during storage_data_read
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.SoftwareVersion] kcm get error 5
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.CurrentTime] kcm get error 5
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.Timezone] kcm get error 5
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.UTCOffset] kcm get error 5
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.InternalEndpoint] kcm get error 5
+[ERR ][mClt]: CloudClientStorage::ccs_get_item [mbed.AccountID] kcm get error 5
+[ERR ][PAL ]: SSL handshake return code 0xffff9400.
+[ERR ][mClt]: M2MConnectionScurityPimpl::start_handshake pal_handShake() error fffffff0
+[ERR ][mClt]: M2MConnectionHandlerPimpl::receive_handshake_handler() - SSL_HANDSHAKE_ERROR
+[ERR ][mClt]: M2MInterfaceImpl::socket_error: (-11), retry (1), reconnecting (0), reconnection_state (0)
+[ERR ][mClt]: ConnectorClient::error() - error: 11
+[ERR ][mClt]: ServiceClient::connector_error() error 11
+[ERR ][mClt]: ServiceClient::state_failure()
+[ERR ][mClt]: MbedCloudClient::error code (11)
+
+[SMCC] Error occurred : MbedCloudClient::ConnectSecureConnectionFailed
+[SMCC] Error code : 11
+[SMCC] Error details : Client in reconnection mode SecureConnectionFailed
+[ERR ][mClt]: ServiceClient::state_failure()
