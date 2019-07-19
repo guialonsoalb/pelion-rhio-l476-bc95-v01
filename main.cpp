@@ -19,6 +19,7 @@
 
 #include "mbed.h"
 #include "simple-mbed-cloud-client.h"
+#include "FATFileSystem.h"
 #include "LittleFileSystem.h"
 
 // Default network interface object. Don't forget to change the WiFi SSID/password in mbed_app.json if you're using WiFi.

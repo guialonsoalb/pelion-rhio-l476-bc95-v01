@@ -27,7 +27,11 @@
         },
         "RHOMBIO_L476DMW1K": {
             "target.macros_remove"                      : ["MBED_TICKLESS"],
-            "target.components_add"                     : ["QSPIF"],
+            "target.components_add"                     : ["SD"],
+            "sd.SPI_MOSI"                               : "PA_7",
+            "sd.SPI_MISO"                               : "PA_6",
+            "sd.SPI_CLK"                                : "PA_5",
+            "sd.SPI_CS"                                 : "PB_14",
             "target.device_has_remove"                  : ["SERIAL_FC"],
             "device-management.flash-start-address"     : "0x08000000",
             "device-management.flash-size"              : "(1024*1024)",
