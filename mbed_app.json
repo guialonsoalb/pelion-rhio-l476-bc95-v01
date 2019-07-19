@@ -15,7 +15,7 @@
             "lwip.ethernet-enabled"                     : false,
             "lwip.ppp-enabled"                          : false,
             "lwip.tcp-enabled"                          : false,
-            "cellular.debug-at"                         : false,
+            "cellular.debug-at"                         : true,
             "nsapi.default-cellular-plmn"               : 0,
             "nsapi.default-cellular-sim-pin"            : 0,
             "nsapi.default-cellular-apn"                : "\"spe.inetd.vodafone.nbiot\"",
